@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+<<<<<<< HEAD
 # a Bash script that configures a new Ubuntu machine to respect
 # above requirements (this script will be run on the server itself)
 # bash script to install nginx web server
@@ -20,3 +21,12 @@ printf %s "server {
 " > /etc/nginx/sites-available/default
 
 service nginx restart
+=======
+# Installs nginx server
+
+sudo apt-get update
+sudo apt-get -y install nginx
+sudo ufw allow 'Nginx HTTP'
+sudo echo "This is Ange from Holberton School :)" > /var/www/html/index.html
+sudo service nginx start
+>>>>>>> bd3d41771fda925a5cc2f3277cbcdc1b4b45dade

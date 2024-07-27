@@ -1,4 +1,5 @@
 # Load balancer
+<<<<<<< HEAD
 
 ## Background Context
 You have been given 2 additional servers:
@@ -26,3 +27,5 @@ For this project, you will need to write Bash scripts to automate your work. All
 - Your Bash script must pass Shellcheck (version 0.3.7) without any error
 - The first line of all your Bash scripts should be exactly #!/usr/bin/env bash
 - The second line of all your Bash scripts should be a comment explaining what is the script doing
+=======
+>>>>>>> bd3d41771fda925a5cc2f3277cbcdc1b4b45dade

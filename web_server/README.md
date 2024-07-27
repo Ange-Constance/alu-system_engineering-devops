@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Web server
 
 # Background Context
@@ -75,3 +76,6 @@ DNS Record Types
 - The first line of all your Bash scripts should be exactly #!/usr/bin/env bash
 - The second line of all your Bash scripts should be a comment explaining what is the script doing
 - You can’t use systemctl for restarting a process
+=======
+# Solutions to tasks on Web server
+>>>>>>> bd3d41771fda925a5cc2f3277cbcdc1b4b45dade

@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+<<<<<<< HEAD
 # bash script that configures a Nginx server to redirect '/redirect_me' to 'http://youtube.com/'
 # redirection is configured as a "301 Moved Permanently"
 
@@ -19,3 +20,16 @@ printf %s "server {
 }" > /etc/nginx/sites-available/default
 
 service nginx restart
+=======
+# Script that configures a new Ubuntu machine with the following requirements:
+
+sudo apt-get update
+sudo apt-get -y install nginx
+sudo ufw allow 'Nginx HTTP'
+echo "This is Oreste from Holberton School :)" | sudo tee /var/www/html/index.html > /dev/null
+
+string_for_replacement="server_name _;\n\trewrite ^\/redirect_me https:\/\/www.github.com\/oreste-abizera permanent;"
+sudo sed -i "s/server_name _;/$string_for_replacement/" /etc/nginx/sites-enabled/default
+
+sudo service nginx restart
+>>>>>>> bd3d41771fda925a5cc2f3277cbcdc1b4b45dade
